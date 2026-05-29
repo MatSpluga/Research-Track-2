@@ -1,0 +1,10 @@
+# Goal: target pose for the robot to reach
+float64 x        # target position along the X axis
+float64 y        # target position along the Y axis
+float64 theta    # target orientation (yaw angle in radians)
+---
+# Result: outcome of the navigation task
+bool success     # true if the robot reached the goal, false otherwise
+---
+# Feedback: progress information sent during navigation
+float64 distance_remaining  # Euclidean distance still to cover

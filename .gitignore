@@ -1,0 +1,7 @@
+build/
+install/
+log/
+bme_gazebo_sensors-main
+.aider*
+bash.txt
+.vscode
